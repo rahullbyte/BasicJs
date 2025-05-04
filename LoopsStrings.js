@@ -105,3 +105,81 @@
 
 // console.log("Correct");
 
+// let str= "Apna college"
+
+// console.log(str.replace("n", "r"));
+
+// let firstName = "rahul"
+// let lastName = "Patil"
+
+// const FullName = firstName.concat(lastName)
+
+// const TotalIndex = FullName.length;
+
+// const UserName = FullName.concat(TotalIndex)
+
+// console.log(`@${UserName}`);
+
+// let String = "Rahul"
+
+// console.log(String.length);
+
+// let str = "Coder"
+
+// console.log(str[0], str[4]);
+
+// let msg = "Say Hello to JavaScript";
+
+// console.log(msg.includes("Hello"));
+
+// let fruits = ['mango', 'apple', 'banana', 'lemon', 'grapes']
+
+// console.log(fruits);
+
+// let nums = [11, 22, 33, 44, 55]
+
+// console.log(nums[2]);
+
+// let arr = ["A", "B", "C"];
+// console.log(arr[3]);
+
+// for (let i = 1; i <= 20; i++) {
+//   if (i % 2 !== 0) {
+//     console.log(`This is odd Number: ${i}`);
+//   }
+// }
+
+// let num = 5
+
+// while(num > 0){
+//     console.log("looping", num);
+//     num--;
+// }
+
+// let firstName = "Rahul"
+// let lastName = "Patil"
+
+// console.log(`Hello, ${firstName} ${lastName}`);
+
+// let string ="developer"
+
+// let firstLetter = string[0].toUpperCase()
+
+// let fullWord = firstLetter + string.slice(1)
+
+// console.log(fullWord.includes("Dev"));
+
+// let marks =[91, 82, 77, 65]
+
+// console.log(marks[1]);
+
+// let fruits =['apple', 'banana']
+
+// console.log(fruits.length);
+
+// fruits[5] ='grapes'
+
+// console.log(fruits);
+
+// console.log(fruits.length);
+
