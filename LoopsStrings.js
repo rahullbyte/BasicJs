@@ -183,3 +183,114 @@
 
 // console.log(fruits.length);
 
+// for (let i = 0; i < 100; i++) {
+//     if (i % 2 === 0) {
+//       console.log(`Even Numbers`, i);
+//     }
+//   }
+
+// for (let i = 1; i <= 10; i++) {
+//   console.log(5 * i);
+// }
+
+// let str = "Hello";
+
+// let count = 0;
+
+// for (let char of str) {
+//   if (
+//     char === "i" ||
+//     char === "e" ||
+//     char === "o" ||
+//     char === "u" ||
+//     char === "a"
+//   ) {
+//     count++;
+//   }
+// }
+
+// console.log("TOtal count", count);
+
+// for (let i = 0; i < 100; i++) {
+//     if (i % 2 !== 0) {
+//       console.log(`Prime Numbers`, i);
+//     }
+//   }
+
+// function findFactorial(num){
+//  return num * num;
+// }
+
+// let result =findFactorial(3)
+
+// console.log(result);
+
+// function reverseSting(str) {
+//   return str.split("").reverse().join("");
+// }
+
+// let result = reverseSting("Hello");
+
+// console.log(result);
+
+// checkPalindrome = (str) => {
+//   let reverseString = str.split("").reverse().join("");
+
+//   if (reverseString === str) {
+//     console.log(`${str} is the palindrome Word `);
+//   } else {
+//     console.log("Not a palindrome word.");
+//   }
+// };
+
+// checkPalindrome('nan');
+
+// checkWords = (str)=>{
+
+//    let data = str.split(/\s+/)
+
+//    let result = data.map(words=>
+
+//     words.length> 0
+//    ).length
+
+//    console.log(result);
+
+// }
+
+// checkWords('Hello i am number.')
+
+// function upperCase(str) {
+//   let words = str.trim().split(/\s+/);
+
+
+//   let result = words.filter((word) => word.length > 0);
+
+ 
+//     let output = result.map(word=>{
+//          return word[0].toUpperCase() + word.slice(1).toLowerCase()
+//     });
+
+//     console.log(output);
+    
+ 
+// }
+
+// upperCase("hello world");
+
+
+// function removeDuplicates(str) {
+//     const seen = {};
+//     let result = '';
+    
+//     for (let char of str) {
+//         if (!seen[char]) {
+//             seen[char] = true;
+//             result += char;
+//         }
+//     }
+    
+//     return result;
+// }
+
+// console.log(removeDuplicates('Hello'));
